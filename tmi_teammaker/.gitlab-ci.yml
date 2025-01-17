@@ -1,0 +1,8 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  only:
+    - main
+  script:
+    - docker build -t tmi-teamaker:latest ./

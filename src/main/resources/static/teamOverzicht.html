@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TeamMaker</title>
+    <link rel="stylesheet" href="../css/teamOverzicht.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../javascript/teamOverzicht.js"></script>
+</head>
+<header>
+    <H1 id="klascode"> Klascode:  </H1>
+    <hr>
+</header>
+<body>
+<div class="teamIndeling" id="team-indeling">
+</div>
+<div class="button">
+    <button id="terug" onclick="backButton()">terug</button>
+</div>
+<div class="loader" id="loader"></div>
+</body>
+<script>
+    window.onload = function() {
+        displayKlascode();
+        displayTeams()
+    };
+</script>
+</html>

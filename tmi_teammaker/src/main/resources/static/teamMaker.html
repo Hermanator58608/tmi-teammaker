@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TeamMaker</title>
+    <link rel="stylesheet" href="css/teamMaker.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/sockjs/latest/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="../javascript/teamMaker.js"></script>
+</head>
+<header>
+    <H1 id="klascode"> Klascode:  </H1>
+    <hr>
+</header>
+<body>
+    <div class="teamIndeling" id="team-indeling">
+        <div class="teamNummer" id="team-nummers">
+            <label>Teams: </label><br>
+            <div class="teams" id="teams">
+
+            </div>
+            <button id="toon-namen" onclick="toonNamen()">Toon Namen</button>
+        </div>
+        <div class="team-container">
+            <div class="team-header" id="team-header">
+                <H1 class ="team-h1" id="teamHeader"> Team:  </H1>
+            </div>
+            <div class="team" id="team">
+            </div>
+        </div>
+        <div class="studenten-container">
+            <div class="studenten-header" id="studenten-header">
+                <H1> Studenten:  </H1>
+            </div>
+            <div class="studenten" id="studenten">
+            </div>
+        </div>
+    </div>
+    <div class="loader" id="loader"></div>
+</body>
+<script>
+    window.onload = function() {
+        displayKlascode();
+        getLeerlingenFromDB();
+        initWebSockets();
+    };
+</script>
+</html>

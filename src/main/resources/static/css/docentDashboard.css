@@ -1,0 +1,143 @@
+.content {
+    margin-left: 20px;
+    width: calc(33% - 60px);
+}
+
+body.content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    align-items: center;
+}
+.label h1{
+    position: absolute;
+    left: 0;
+}
+.content h2{
+    text-align: center;
+}
+#projectList {
+    height: 450px;
+    width: 30vh;
+    margin-bottom: 10px;
+    background-color: #1C1B29;
+    color: #A6A6AD;
+    border: none;
+    outline: none;
+}
+
+.content ul{
+    background-color: #1C1B29;
+    color: #A6A6AD;
+    border: none;
+    outline: none;
+    height: 450px;
+    border-radius: 10px
+
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bevestig button{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    transform: translateY(-68%);
+}
+.input-container button{
+    height: 50px;
+}
+
+
+#projectInput {
+    margin-top: 12px;
+    margin-right: 10px;
+    width: 325px;
+    height: 50px;
+}
+
+
+
+.dashboard {
+    display: flex;
+    width: 100%;
+}
+
+.kwaliteit {
+    background-color: #1C1B29;
+    color: #A6A6AD;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-indent: 30px;
+    margin: 2px;
+}
+
+.kwaliteit:hover {
+    background-color: #dddddd;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    margin-top: 13px;
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-right: 40px;
+    margin-left: 20px;
+    width: calc(33% - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.kwaliteit{
+    padding-right: 30px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.bevestig{
+    width: calc(33% - 60px);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teambuilder</title>
+    <link rel="stylesheet" href="css/kwaliteitenblad.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script  src="../javascript/kwaliteitenblad.js"></script>
+</head>
+
+<body onload="get_post_Klascode()">
+<header>
+    <H1> Teambuilder </H1>
+    <hr>
+    <p id="header"></p>
+</header>
+    <div class="kwaliteiten" id="result-kwaliteiten"></div>
+
+    <div class="projecten" id="result-projecten"></div>
+
+    <div class="bevestigknop" id="result-knop">
+        <div class="knoppen">
+            <button id="terug" onclick="undo_display_Checked_Kwaliteiten()" hidden>Terug</button>
+            <button id="overzicht" onclick="display_Checked_Kwaliteiten()" disabled> Naar overzicht</button>
+            <button id="bevestigen" onclick="bevestig_Kwaliteiten()" hidden>Bevestigen</button>
+        </div>
+    </div>
+    <div class="loader" id="loader"></div>
+</body>
+</html>

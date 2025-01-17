@@ -1,0 +1,118 @@
+.teamIndeling{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+}
+
+.team{
+    background-color: #1c1b29;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.captainLable{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: 25px;
+}
+
+.teamMembers{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+.memberLable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    padding-block: 6px;
+}
+
+#terug{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin-bottom: 10px;
+}.teamIndeling{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-gap: 1rem;
+ }
+
+.team{
+    background-color: #1c1b29;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.captainLable{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: 25px;
+}
+
+.teamMembers{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+.memberLable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    padding-block: 6px;
+}
+
+#terug{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin-bottom: 10px;
+}.teamIndeling{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-gap: 1rem;
+ }
+
+.team{
+    background-color: #1c1b29;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.captainLable{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: 25px;
+}
+
+.teamMembers{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+.memberLable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    padding-block: 6px;
+}
+
+#terug{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin-bottom: 10px;
+}
